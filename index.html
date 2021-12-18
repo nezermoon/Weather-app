@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form class="search" onsubmit="return false">
+			<input type="text" class="city_search" placeholder="Enter city">
+			<button class="search_icon"><img src="img/search.svg" alt="magnifier" class="search_icon_img"></button>
+		</form>
+		<div class="content">
+			<div class="left_side">
+				<div id="tab1" class="now_content_tab">
+					<div class="degree">14°</div>
+					<img src="img/cloud.svg" alt="cloud" class="weather_icon">
+					<div class="now_bottom">
+						<div class="now_location">Aktobe</div>
+						<button class="heart_now"><img src="img/heart.svg" alt="heart" class="heart_icon"></button>
+					</div>
+				</div>
+				<div id="tab2" class="detailed_content_tab">
+					<div class="detailed_location">Aktobe</div>
+					<div class="details_item detailed_temperature">Temperature: 14</div>
+					<div class="details_item detailed_feeling">Feels like: 10</div>
+					<div class="details_item detailed_weather">Weather: Clouds</div>
+					<div class="details_item detailed_sunrise">Sunrise: 03:21</div>
+					<div class="details_item detailed_sunset">Sunset: 18:54</div>
+				</div>
+				<div class="forecast_page"></div>
+				<div class="tabs_btn">
+					<a href="#tab1" class="btn">Now</a>
+					<a href="#tab2" class="btn">Details</a>
+					<a href="#tab3" class="btn">Forecast</a>
+				</div>
+			</div>
+			<div class="right_side">
+				<div class="right_side_header">Added Locations:</div>
+				<div class="location_list">
+					<!-- <div class="location">
+						Amur 
+					</div>
+					<div class="location">
+						Samara
+					</div>
+					<div class="location">
+						Bali
+					</div>
+					<div class="location">
+						Dane
+					</div>
+					<div class="location">
+						Kilo
+					</div>
+					<div class="location">
+						Nur-Sultan
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="module" src="tabs.js"></script>
+	<script type="module" src="view.js"></script>
+	<script type="module" src="main.js"></script>
+</body>
+</html>
