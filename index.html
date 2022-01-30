@@ -14,22 +14,40 @@
 		<div class="content">
 			<div class="left_side">
 				<div id="tab1" class="now_content_tab">
-					<div class="degree">14°</div>
+					<div class="degree">0°</div>
 					<img src="img/cloud.svg" alt="cloud" class="weather_icon">
 					<div class="now_bottom">
-						<div class="now_location">Aktobe</div>
+						<div class="now_location">Location</div>
 						<button class="heart_now"><img src="img/heart.svg" alt="heart" class="heart_icon"></button>
 					</div>
 				</div>
 				<div id="tab2" class="detailed_content_tab">
-					<div class="detailed_location">Aktobe</div>
-					<div class="details_item detailed_temperature">Temperature: 14</div>
-					<div class="details_item detailed_feeling">Feels like: 10</div>
-					<div class="details_item detailed_weather">Weather: Clouds</div>
-					<div class="details_item detailed_sunrise">Sunrise: 03:21</div>
-					<div class="details_item detailed_sunset">Sunset: 18:54</div>
+					<div class="detailed_location">Location</div>
+					<div class="details_item detailed_temperature">Temperature:</div>
+					<div class="details_item detailed_feeling">Feels like:</div>
+					<div class="details_item detailed_weather">Weather:</div>
+					<div class="details_item detailed_sunrise">Sunrise:</div>
+					<div class="details_item detailed_sunset">Sunset:</div>
 				</div>
-				<div class="forecast_page"></div>
+				<div id="tab3" class="forecast_tab">
+					<div class="forecast_location">Location</div>
+					<div class="forecast_block">
+						<div class="forecast_top">
+							<span class="forecast_date">17 May</span>
+							<span class="forecast_hour">12:00</span>
+						</div>
+						<div class="forecast_bottom">
+							<div class="forecast_info">
+								<span class="forecast_temp">Temperature: 13°</span>
+								<span class="forecast_feeling">Feels like: 10°</span>
+							</div>
+							<div class="forecast_visual">
+								<span class="forecast_weather">Rain</span>
+								<img src="img/rain.svg" alt="rain" class="forecast_img">
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="tabs_btn">
 					<a href="#tab1" class="btn">Now</a>
 					<a href="#tab2" class="btn">Details</a>
@@ -38,31 +56,12 @@
 			</div>
 			<div class="right_side">
 				<div class="right_side_header">Added Locations:</div>
-				<div class="location_list">
-					<!-- <div class="location">
-						Amur 
-					</div>
-					<div class="location">
-						Samara
-					</div>
-					<div class="location">
-						Bali
-					</div>
-					<div class="location">
-						Dane
-					</div>
-					<div class="location">
-						Kilo
-					</div>
-					<div class="location">
-						Nur-Sultan
-					</div> -->
-				</div>
+				<div class="location_list"></div>
 			</div>
 		</div>
 	</div>
 	<script type="module" src="js/tabs.js"></script>
 	<script type="module" src="js/view.js"></script>
 	<script type="module" src="js/main.js"></script>
-</body>js/
+</body>
 </html>

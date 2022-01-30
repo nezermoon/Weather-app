@@ -3,11 +3,23 @@ export const UI = {
 	SEARCH: document.querySelector('.search_icon'),
 	LOCATION_NAME: document.querySelector('.now_location'),
 	LOCATION_TEMP: document.querySelector('.degree'),
-	LOCATION_ADD: document.querySelector('.heart_now'),
+	FAVOURITE_BUTTON: document.querySelector('.heart_now'),
 	LOCATION_LIST: document.querySelector('.location_list'),
 	WEATHER_IMG: document.querySelector('.weather_icon'),
-}
-
-export const URL = {
-	WEATHER: 'http://api.openweathermap.org/data/2.5/weather',
+	FORM: document.querySelector('.search'),
+	INPUT_TEXT: document.querySelector('.city_search'),
+	DETAILED_TEMP: document.querySelector('.detailed_temperature'),
+	DETAILED_FEEL: document.querySelector('.detailed_feeling'),
+	DETAILED_WEATHER: document.querySelector('.detailed_weather'),
+	SUNRISE: document.querySelector('.detailed_sunrise'),
+	SUNSET: document.querySelector('.detailed_sunset'),
+	DETAILED_LOCATION_NAME: document.querySelector('.detailed_location'),
+	FORECAST_PAGE: document.querySelector('.forecast_tab'),
+	FORECAST_LOCATION_NAME: document.querySelector('.forecast_location'),
+	FORECAST_DATE: document.querySelector('.forecast_date'),
+	FORECAST_HOUR: document.querySelector('.forecast_hour'),
+	FORECAST_TEMP: document.querySelector('.forecast_temp'),
+	FORECAST_FEELING: document.querySelector('.forecast_feeling'),
+	FORECAST_WEATHER: document.querySelector('.forecast_weather'),
+	FORECAST_IMG: document.querySelector('.forecast_img'),
 }
